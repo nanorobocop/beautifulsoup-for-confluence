@@ -1,4 +1,4 @@
-# Create/Modify and Publish Confluence page
+# Construct and Publish Confluence page using BeautifulSoup library and ConfluenceAPI
 
 ## Preface
 Confluence uses so called 'storage' format for pages.
