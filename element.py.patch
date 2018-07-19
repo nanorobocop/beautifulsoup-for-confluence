@@ -1,0 +1,14 @@
+538,542c538,544
+<                 if name.count(':') == 1:
+<                     # This is a name with a prefix.
+<                     prefix, name = name.split(':', 1)
+<                 else:
+<                     prefix = None
+---
+>                 # DISABLE optimization to understand Confluence namespaces
+>                 #if name.count(':') == 1:
+>                 #    # This is a name with a prefix.
+>                 #    prefix, name = name.split(':', 1)
+>                 #else:
+>                 #    prefix = None
+>                 prefix = None
